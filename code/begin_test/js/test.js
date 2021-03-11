@@ -1,7 +1,7 @@
 
 for (i=0;i<=2;i++)
     {
-        let hehe =3;
+        var hehe =3;
         if (hehe == 3)
             {
                 lol = "hello";
@@ -11,5 +11,5 @@ for (i=0;i<=2;i++)
 
     }
 
-console.log(lol1);
+console.log(hehe);
 lol1 = "hello1111";

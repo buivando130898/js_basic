@@ -14,4 +14,14 @@ ar1 = ["test1", 2222, "hello"];
 ar2 = ["test2", 333, 444, "lol"];
 
 console.log(test.length);
-console.log(chuoi.indexOf("hehe",11))
+console.log(chuoi.indexOf("hehe",11));
+
+function test111(hehe) {
+
+    console.log(arguments);
+    console.log(arguments[2])
+    console.log(hehe)
+}
+
+test111(1,2,3,4)
+console.log("hello".length)  
