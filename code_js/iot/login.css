@@ -13,9 +13,6 @@ a {
     text-decoration: none
 }
 
-input:focus {
-    border-color: #4CAF50 ;
-  }
 
 .header {
     width: 100%;
@@ -34,17 +31,14 @@ input:focus {
 
 .than_1 {
     width: 70%;
-    height: 600px;
+    height: 700px;
     margin: auto;
 }
 
 .info_web {
     width: 50%;
     float: left;
-    height: 500px;
-    background-color: rgb(172, 172, 159);
-
- 
+    height: 700px; 
 }
 
 .title_web {
@@ -56,8 +50,7 @@ input:focus {
 .info_login {
     width: 50%;
     float: left;
-    height: 500px;
-    background-color: rgb(139, 139, 167);
+    height: 700px;
     padding-top: 60px;
     
 }
@@ -66,7 +59,7 @@ input:focus {
     width: 70%;
     padding: 20px;
     margin: auto;
-    background-color: #f2f2f2;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
@@ -122,4 +115,9 @@ input:focus {
     margin-bottom: 15px;
     margin-top: 15px;
     font-size:larger;
+}
+
+.notifi {
+    margin-bottom: 10px;
+
 }

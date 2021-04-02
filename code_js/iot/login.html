@@ -16,9 +16,16 @@
     </head>
 
 
+    <script>
+
+
+
+
+    </script>
+
+
 <body>
     
-
     <div class="header" id="header">
         <div class="logo" id="logo_login" >
             
@@ -35,7 +42,7 @@
             </div>  
         </div>
 
-        <div class="info_login">
+        <div class="info_login" id="info_login" style="display: block;">
             <form action="" class="form_login">
                 <div class="acc">
                     <input type="text"  class="input_login" placeholder="Tài khoản">
@@ -51,6 +58,8 @@
 
                 </div>
 
+                <div class="notifi"><p id="notifi_login"></p></div>
+
                 <hr>
 
                 <div class="forget_pass">
@@ -58,21 +67,31 @@
                 </div>
                 
                 <div class="creat_acc">
-                    <button class="button_login" id="button_creat">Tạo tài khoản</button>
+                    <button class="button_login" type='button' id="button_creat" onclick="creat_acc()">Tạo tài khoản</button>
            
                 </div>
 
             </form>
         </div>
 
-        <div class="info_login" style="display:none"> 
-            <form action="" class="form_login">
+        <div class="info_login" id="info_creat" style="display: none;"> 
+            <form action="" class="form_login" >
+                
                 <div class="acc">
-                    <input type="text"  class="input_login">
+                    <input type="text"  class="input_login"  placeholder="Gmail">
+                </div>
+
+                <div class="acc">
+                    <input type="text"  class="input_login"  placeholder="Tài khoản">
                 </div>
 
                 <div class="pas">
-                    <input type="password" class="input_login">
+                    <input type="password" class="input_login"  placeholder="Mật khẩu">
+
+                </div>
+
+                <div class="pas">
+                    <input type="password" class="input_login"  placeholder="Nhập lại mật khẩu">
 
                 </div>
 
@@ -81,12 +100,16 @@
 
                 </div>
 
+                <div class="notifi"></div>
+
+                <hr>
+
                 <div class="forget_pass">
                     <a href="http://" id="forget_pass_a">Quên mật khẩu?</a>
                 </div>
                 
                 <div class="creat_acc">
-                    <button class="button_login" id="button_login">Đăng nhập</button>
+                    <button class="button_login" id="button_login" onclick="login_acc()">Đăng nhập</button>
 
                 </div>
 
